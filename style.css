@@ -42,8 +42,8 @@ main {
   flex-direction: column;
   gap: 24px;
   align-items: center;
-  min-width: 384px;
-  padding: 40px;
+  margin: 0px 24px;
+  padding: 24px;
   border-radius: 12px;
   background-color: var(--grey-800);
   text-align: center;
@@ -102,4 +102,11 @@ main {
 .link:hover {
   background-color: var(--green);
   color: var(--grey-700);
+}
+
+@media (min-width: 432px) {
+  .card {
+    width: 384px;
+    padding: 40px;
+  }
 }
